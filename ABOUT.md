@@ -10,4 +10,4 @@ VibeIsOdd is a satirical, AI-powered Python package that determines if a number 
   - Support for multiple AI providers (OpenAI, Gemini, etc.)
   - Clean, well-documented code
 
-For more, see the README or visit the [GitHub repo](https://github.com/yourusername/VibeIsOdd).
+For more, see the README or visit the [GitHub repo](https://github.com/deanbilledo/VibeIsOdd).
