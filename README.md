@@ -1,11 +1,15 @@
+
 # VibeIsOdd
 
 [![PyPI](https://img.shields.io/pypi/v/vibeisodd.svg)](https://pypi.org/project/vibeisodd/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **"Why use math when you can use AI?"**
+> **Why use math when you can use AI?**
 
-VibeIsOdd is the world's most over-engineered, AI-powered odd number detector. Instead of using boring old arithmetic, we ask GPT if your number is odd. Because, why not?
+VibeIsOdd is the most over-engineered way to check if a number is odd. Instead of using arithmetic, it asks a large language model (like OpenAI GPT or Gemini) if your number is odd. Because, why not?
+
+## 🤔 What is this?
+A parody Python package that uses AI to answer the age-old question: "Is this number odd?" It’s a real, installable package with all the trimmings—just for fun (and maybe a little learning).
 
 ## 🚀 Installation
 
@@ -23,11 +27,15 @@ pip install .
 
 ## 🔑 Setup
 
-You'll need an OpenAI API key. Set it as an environment variable:
+You'll need an API key for your chosen AI provider (OpenAI or Gemini). Set it as an environment variable:
 
-```bash
-export OPENAI_API_KEY=your-key-here  # On Linux/macOS
-$env:OPENAI_API_KEY="your-key-here"  # On Windows PowerShell
+- For OpenAI: `OPENAI_API_KEY`
+- For Gemini: `GEMINI_API_KEY`
+
+Example (PowerShell):
+```powershell
+$env:OPENAI_API_KEY="your-openai-key"
+$env:GEMINI_API_KEY="your-gemini-key"
 ```
 
 ## 🤖 Usage
@@ -61,7 +69,7 @@ python -m vibeisodd.example
 
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
-3. Set your `OPENAI_API_KEY`
+3. Set your API key(s)
 4. Run tests/examples
 
 ## 📦 Package Info
